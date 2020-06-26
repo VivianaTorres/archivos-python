@@ -1,0 +1,19 @@
+<!--ESTA ES LA FORMA EN LA QUE SE HACIAN FORMULARIOS ANTES, CUANDO NO SE USABA ANGULAR O REACT -->
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    </head>
+    <body>
+        <form action="/formulario" method="POST"> <!--action tiene la ruta del backend, en este caso seria /formulario-->
+            <div class="form-group">
+              <label for="nombre">Nombre</label>
+              <input class="form-control" id="nombre" name="nombre" aria-describedby="Ingrese el nombre">
+              <label for="apellido">Apellido</label>
+              <input class="form-control" id="apellido" name="apellido" aria-describedby="Ingrese el apellido">
+              <label for="edad">Edad</label>
+              <input class="form-control" id="edad" name="edad" aria-describedby="Ingrese la edad">           
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </body>
+</html>
